@@ -1,5 +1,4 @@
 import telebot
-import asyncio
 import os
 import aiogram
 

@@ -6,7 +6,7 @@ openai.api_key = openai_api
 
 def comp(user_input):
   global generated_response
-  print("User Requested Asis AutoComplition Response")
+  print(" ⚠ User Requested Asis AutoCompletion Response")
   response = openai.ChatCompletion.create(
       model="gpt-3.5-turbo",
       messages=[{
